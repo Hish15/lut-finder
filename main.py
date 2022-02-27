@@ -3,7 +3,7 @@ import numpy as np
 import random
 step = 0.05
 
-myFunc = np.arctan
+myFunc = lambda x : np.sin(x)
 
 class linearFunc:
     def __init__(self, x1, x2, y1, y2):
